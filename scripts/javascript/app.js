@@ -31,27 +31,27 @@ function goWhats(value) {
 }
 
 //owl
-$(".owl-carousel").owlCarousel({
-  loop: true,
-  autoplay: true,
-  autoplayTimeout: 3000,
-  margin: 30,
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 1,
-      nav: false,
-      margin: 0,
-    },
-    600: {
-      items: 2,
-      nav: false,
-      margin: 10,
-    },
-    900: {
-      items: 3,
-      nav: false,
-      loop: false,
-    },
-  },
-});
+// $(".owl-carousel").owlCarousel({
+//   loop: true,
+//   autoplay: true,
+//   autoplayTimeout: 3000,
+//   margin: 30,
+//   responsiveClass: true,
+//   responsive: {
+//     0: {
+//       items: 1,
+//       nav: false,
+//       margin: 0,
+//     },
+//     600: {
+//       items: 2,
+//       nav: false,
+//       margin: 10,
+//     },
+//     900: {
+//       items: 3,
+//       nav: false,
+//       loop: false,
+//     },
+//   },
+// });
