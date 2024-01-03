@@ -175,12 +175,6 @@ html {
     width: 70px;
     height: auto;
   }
-  .ath360-hero-container {
-    height: 100vh;
-  }
-  .ath360-hero-container .hero-container-overlay {
-    height: 100vh;
-  }
   .ath360-hero-container .hero-container-overlay .hero {
     padding: 0 5%;
   }
@@ -198,12 +192,6 @@ html {
   }
   .ath360-top-nav-container .top-nav .top-nav-links .nav-link-under {
     top: 35px;
-  }
-  .ath360-hero-container {
-    height: 110vh;
-  }
-  .ath360-hero-container .hero-container-overlay {
-    height: 110vh;
   }
 }
 @media screen and (max-width: 940px) {
