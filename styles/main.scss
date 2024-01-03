@@ -348,14 +348,15 @@ html {
 
             img {
                 width: auto;
-                height: 200px;
+                height: 400px;
             }
 
             .plan-img {
                 background-size: cover;
                 background-position: center;
+                background-repeat: no-repeat;
                 width: 100%;
-                height: 200px;
+                height: 400px;
             }
 
             .plan-img-1 {
@@ -370,6 +371,17 @@ html {
                 background-image: url('https://nuwan-dev.github.io/athlete360/assets/images/woman-doing-onehadn-pushups.jpg') !important;
             }
 
+            .plan-img-4 {
+                background-image: url('https://nuwan-dev.github.io/athlete360/assets/images/pexels-cesar-galeão-3253501.jpg') !important;
+            }
+
+            .plan-img-5 {
+                background-image: url('https://nuwan-dev.github.io/athlete360/assets/images/pexels-leon-ardho-1552242.jpg') !important;
+            }
+
+            .plan-img-6 {
+                background-image: url('https://nuwan-dev.github.io/athlete360/assets/images/pexels-li-sun-2294361.jpg') !important;
+            }
 
             .plan-txt {
                 background-color: $light;

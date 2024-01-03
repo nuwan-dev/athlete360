@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 *,
@@ -288,13 +289,14 @@ html {
 }
 .ath360-plans-container .plans .plan img {
   width: auto;
-  height: 200px;
+  height: 400px;
 }
 .ath360-plans-container .plans .plan .plan-img {
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 200px;
+  height: 400px;
 }
 .ath360-plans-container .plans .plan .plan-img-1 {
   background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/man-doing-weight.jpg") !important;
@@ -304,6 +306,15 @@ html {
 }
 .ath360-plans-container .plans .plan .plan-img-3 {
   background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/woman-doing-onehadn-pushups.jpg") !important;
+}
+.ath360-plans-container .plans .plan .plan-img-4 {
+  background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/pexels-cesar-galeão-3253501.jpg") !important;
+}
+.ath360-plans-container .plans .plan .plan-img-5 {
+  background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/pexels-leon-ardho-1552242.jpg") !important;
+}
+.ath360-plans-container .plans .plan .plan-img-6 {
+  background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/pexels-li-sun-2294361.jpg") !important;
 }
 .ath360-plans-container .plans .plan .plan-txt {
   background-color: #fff;
