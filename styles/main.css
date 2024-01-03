@@ -380,9 +380,11 @@ html {
 }
 .ath360-why-us-container .why-us .why {
   padding: 25px 32px;
+  min-height: 450px;
+  transition: ease-in-out 0.3s;
 }
 .ath360-why-us-container .why-us .why img {
-  width: 282px;
+  width: 100%;
 }
 .ath360-why-us-container .why-us .why h4 {
   color: #fff;
@@ -408,6 +410,9 @@ html {
 .ath360-why-us-container .why-us .why .why-learn-more-txt img {
   width: 12px;
   margin-left: 10px;
+}
+.ath360-why-us-container .why-us .why:hover {
+  transform: translateY(-10px);
 }
 .ath360-why-us-container .why-us .why-1 {
   background-color: #047DC6;

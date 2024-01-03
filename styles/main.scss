@@ -463,9 +463,11 @@ html {
 
         .why {
             padding: 25px 32px;
+            min-height: 450px;
+            transition: ease-in-out 0.3s;
 
             img {
-                width: 282px;
+                width: 100%;
 
             }
 
@@ -500,6 +502,10 @@ html {
                     margin-left: 10px;
                 }
             }
+        }
+
+        .why:hover {
+            transform: translateY(-10px);
         }
 
         .why-1 {
