@@ -328,6 +328,28 @@ html {
   cursor: pointer;
 }
 
+.ath360-form-container .form {
+  max-width: 250px;
+}
+.ath360-form-container .form .reg-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.ath360-form-container .form .reg-form button {
+  background-color: #047DC6;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  display: inherit;
+  align-items: center;
+}
+.ath360-form-container .form .reg-form button img {
+  width: 26px;
+  height: auto;
+}
+
 .ath360-why-us-container {
   width: 100%;
   background-color: #fff;
