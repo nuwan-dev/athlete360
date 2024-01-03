@@ -299,13 +299,13 @@ html {
   height: 200px;
 }
 .ath360-plans-container .plans .plan .plan-img-1 {
-  background-image: url("/assets/images/man-doing-weight.jpg") !important;
+  background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/man-doing-weight.jpg") !important;
 }
 .ath360-plans-container .plans .plan .plan-img-2 {
-  background-image: url("/assets/images/man-lifting-weight.jpg") !important;
+  background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/man-lifting-weight.jpg") !important;
 }
 .ath360-plans-container .plans .plan .plan-img-3 {
-  background-image: url("/assets/images/woman-doing-onehadn-pushups.jpg") !important;
+  background-image: url("https://nuwan-dev.github.io/athlete360/assets/images/woman-doing-onehadn-pushups.jpg") !important;
 }
 .ath360-plans-container .plans .plan .plan-txt {
   background-color: #fff;
