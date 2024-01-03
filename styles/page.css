@@ -198,6 +198,7 @@ html {
   padding: 42px 34px;
   background: #097FD9;
   border: none;
+  overflow: hidden;
 }
 .ath360-pricing-container .pricing .plans .plan-2 h3 {
   color: #fff;
