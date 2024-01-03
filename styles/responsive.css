@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 540px) {
+  .ath360-top-nav-container {
+    display: none;
+  }
+  .ath360-m-nav-container {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .ath360-m-nav-container .m-nav {
+    padding: 0 5%;
+  }
+  .ath360-m-nav-container .m-nav .m-nav-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ath360-m-nav-container .m-nav .m-nav-icons a {
+    cursor: pointer;
+  }
+  .ath360-m-nav-container .m-nav .m-nav-icons a img {
+    width: 30px;
+    height: auto;
+    display: block;
+    transition: all 0.2s ease-in-out;
+  }
+  .ath360-m-nav-container .m-nav .m-nav-icons a img:hover {
+    transform: scale(1.2);
+  }
+  .ath360-hero-container {
+    height: 100vh;
+  }
+  .ath360-hero-container .hero-container-overlay {
+    height: 100vh;
+  }
+  .ath360-hero-container .hero-container-overlay .hero {
+    padding: 50px 5%;
+    top: 0;
+  }
+  .ath360-hero-container .hero-container-overlay .hero h1 {
+    font-size: 40px;
+    top: 200px;
+  }
+  .ath360-hero-container .hero-container-overlay .hero h2 {
+    font-size: 16px;
+    top: 225px;
+  }
+  .ath360-hero-container .hero-container-overlay .hero .hero-btns {
+    top: 250px;
+  }
+  .ath360-hero-container .hero-container-overlay .hero .hero-btns .hero-btn {
+    font-size: 14px;
+  }
+  .ath360-fitness-journey-container {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .ath360-fitness-journey-container .fitness-journey {
+    flex-direction: column;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-imgs {
+    row-gap: 20px;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-imgs .fitness-jry-imgs-1 {
+    column-gap: 20px;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-imgs .fitness-jry-imgs-1 img {
+    width: 155px;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-imgs .fitness-jry-imgs-2 {
+    column-gap: 20px;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-imgs .fitness-jry-imgs-2 img {
+    width: 155px;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-txt {
+    text-align: center;
+    position: relative;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-txt h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .ath360-start-today-container {
+    width: 100%;
+    background-position: center right;
+  }
+  .ath360-start-today-container .start-today-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 0 !important;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today .start-today-sub-1 {
+    margin: auto;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today .start-today-sub-1 h2 {
+    font-size: 35px;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today .start-today-sub-1 .start-today-sub {
+    margin-top: 25px;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today .start-today-sub-1 .start-today-sub div {
+    justify-content: center;
+  }
+  .ath360-plans-container .plans-header {
+    font-size: 35px;
+  }
+  .ath360-plans-container .plans {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .ath360-why-us-container {
+    padding: 50px 5%;
+  }
+  .ath360-why-us-container .why-us-header {
+    font-size: 35px;
+  }
+  .ath360-why-us-container .why-us {
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+  .ath360-icon-container {
+    padding: 50px 5%;
+  }
+  .ath360-contact-container .contact {
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .ath360-contact-container .contact .con-det {
+    flex-direction: column;
+    flex: 1;
+  }
+  .ath360-footer-container .footer {
+    margin-bottom: 50px;
+  }
+  .ath360-footer-container .footer .footer-links {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+@media screen and (min-width: 540px) {
+  .ath360-top-nav-container {
+    padding: 0 5%;
+  }
+  .ath360-top-nav-container .top-nav .top-nav-logo {
+    line-height: 0;
+  }
+  .ath360-top-nav-container .top-nav .top-nav-logo img {
+    width: 70px;
+    height: auto;
+  }
+  .ath360-hero-container {
+    height: 100vh;
+  }
+  .ath360-hero-container .hero-container-overlay {
+    height: 100vh;
+  }
+  .ath360-hero-container .hero-container-overlay .hero {
+    padding: 0 5%;
+  }
+}
+@media screen and (min-width: 940px) {
+  .ath360-top-nav-container {
+    padding: 0 5%;
+  }
+  .ath360-top-nav-container .top-nav .top-nav-logo {
+    line-height: 0;
+  }
+  .ath360-top-nav-container .top-nav .top-nav-logo img {
+    width: 100px;
+    height: auto;
+  }
+  .ath360-top-nav-container .top-nav .top-nav-links .nav-link-under {
+    top: 35px;
+  }
+  .ath360-hero-container {
+    height: 110vh;
+  }
+  .ath360-hero-container .hero-container-overlay {
+    height: 110vh;
+  }
+}
+@media screen and (max-width: 940px) {
+  .ath360-top-nav-container .top-nav .top-nav-links .nav-link-under {
+    top: 30px;
+  }
+  .ath360-hero-container {
+    height: 800px;
+  }
+  .ath360-hero-container .hero-container-overlay {
+    height: 800px;
+  }
+  .ath360-fitness-journey-container {
+    padding: 50px 5%;
+    height: 100%;
+  }
+  .ath360-fitness-journey-container .fitness-journey {
+    flex-direction: column;
+  }
+  .ath360-fitness-journey-container .fitness-journey .fitness-jry-txt {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .ath360-start-today-container {
+    width: 100%;
+    background-position: center right;
+    height: 100vh;
+    margin: auto;
+  }
+  .ath360-start-today-container .start-today-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today {
+    text-align: center;
+    position: relative;
+    top: 150px;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today .start-today-sub {
+    margin-top: 25px;
+  }
+  .ath360-start-today-container .start-today-overlay .start-today .start-today-sub div {
+    justify-content: center;
+  }
+  .ath360-why-us-container .why-us {
+    flex-wrap: wrap;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .ath360-contact-container .contact {
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+  }
+  .ath360-contact-container .contact .con-msg {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .ath360-contact-container .contact .con-det {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    align-items: flex-start;
+    row-gap: 10px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
