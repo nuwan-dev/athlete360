@@ -400,3 +400,16 @@ html {
         }
     }
 }
+
+
+// screen < 850
+@media screen and (max-width: 850px) {
+    .ath360-pricing-container {
+        .pricing {
+            .plans {
+                flex-direction: column !important;
+                justify-content: center !important;
+            }
+        }
+    }
+}
