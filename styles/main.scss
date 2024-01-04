@@ -316,6 +316,7 @@ html {
 .ath360-pricing-container {
     width: 100%;
     background-color: $light;
+    position: relative;
 
     .pricing {
         display: flex;
@@ -494,17 +495,30 @@ html {
 
     .ath360-form-container {
         width: 100%;
-    
+        position: absolute;
+        top: 50vh;
+        display: none;
+
         .form {
-            max-width: 250px;
+            max-width: 1000px;
             margin: auto;
-    
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 16px;
+            padding: 24px 28px;
+
             .reg-form {
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 position: relative;
-    
+
+                label {
+                    color: #fff;
+                    font-size: 16px;
+                    font-family: $text-fonts;
+                }
+
                 button {
                     background-color: $blue;
                     width: 50px;
@@ -517,7 +531,7 @@ html {
                     margin: auto;
                     margin-right: 0;
                     justify-content: center;
-    
+
                     img {
                         width: 26px;
                         height: auto;
@@ -525,6 +539,10 @@ html {
                 }
             }
         }
+    }
+
+    .ath-form-active {
+        display: block;
     }
 }
 

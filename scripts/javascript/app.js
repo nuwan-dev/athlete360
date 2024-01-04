@@ -25,8 +25,15 @@ plnBtns.forEach((el) => {
 
 // goWhats
 function goWhats(value) {
-  const email = "info@nuone.tech";
-  window.open(`mailto:${email}?subject=${value}&body=${"I would like to enroll in" + " " + value}`);
+  const form = document.querySelector(".ath360-form-container");
+  form.classList.toggle('ath-form-active')
+
+  // const email = "info@nuone.tech";
+  // window.open(
+  //   `mailto:${email}?subject=${value}&body=${
+  //     "I would like to enroll in" + " " + value
+  //   }`
+  // );
   // window.open(`https://wa.me/94781154482?text=${"I would like to enroll in" + " " + value}`);
 }
 

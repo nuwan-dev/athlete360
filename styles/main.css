@@ -261,6 +261,7 @@ html {
 .ath360-pricing-container {
   width: 100%;
   background-color: #fff;
+  position: relative;
 }
 .ath360-pricing-container .pricing {
   display: flex;
@@ -416,16 +417,28 @@ html {
 }
 .ath360-pricing-container .ath360-form-container {
   width: 100%;
+  position: absolute;
+  top: 50vh;
+  display: none;
 }
 .ath360-pricing-container .ath360-form-container .form {
-  max-width: 250px;
+  max-width: 1000px;
   margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+  padding: 24px 28px;
 }
 .ath360-pricing-container .ath360-form-container .form .reg-form {
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
+}
+.ath360-pricing-container .ath360-form-container .form .reg-form label {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 .ath360-pricing-container .ath360-form-container .form .reg-form button {
   background-color: #047DC6;
@@ -443,6 +456,9 @@ html {
 .ath360-pricing-container .ath360-form-container .form .reg-form button img {
   width: 26px;
   height: auto;
+}
+.ath360-pricing-container .ath-form-active {
+  display: block;
 }
 
 .ath360-plans-container {
