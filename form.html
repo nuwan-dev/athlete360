@@ -17,7 +17,7 @@
 
 <body>
     <!-- top nav container -->
-    <div class="ath360-top-nav-container">
+    <!-- <div class="ath360-top-nav-container">
         <nav class="top-nav">
             <a href="/index.html" class="top-nav-logo"><img src="./assets/images/logo.png" alt="logo"></a>
             <ul class="top-nav-links">
@@ -27,10 +27,10 @@
                 <li class="top-nav-link"><a href="#contact" class="nav-link">Contact us</a></li>
             </ul>
         </nav>
-    </div>
+    </div> -->
 
     <!-- mobile nav container -->
-    <div class="ath360-m-nav-container">
+    <!-- <div class="ath360-m-nav-container">
         <nav class="m-nav">
             <div class="m-nav-icons">
                 <a href="index.html" class="m-nav-link"><img src="./assets/icons/home.png" alt="home icon"></a>
@@ -40,27 +40,30 @@
             </div>
             <ul class="m-nav-links"></ul>
         </nav>
-    </div>
+    </div> -->
 
     <!-- form container -->
     <div class="ath360-form-container">
-        <form action="main.php" method="post" class="form">
-            <div class="form">
-                <h1>Fill the form. It's easy.</h1>
-                <input type="text" name="name" id="name" placeholder="Your name">
-                <input type="tel" name="tel" id="tel" placeholder="Your phone">
-                <select name="plan" id="plan">
-                    <option value="none" selected disabled hidden>Select a plan</option>
-                    <option value="Personal training">Personal training</option>
-                    <option value="Personal training">Personal training</option>
-                    <option value="Personal training">Personal training</option>
-                </select>
+        <div class="form-sub">
+            <div class="form-sub-1">
+                <h1>Fill the form. <br> It's easy.</h1>
+                <div>
+                    <form action="main.php" method="post" class="form">
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                        <input type="tel" name="tel" id="tel" placeholder="Your phone">
+                        <div class="cust-sec">
+                            <select name="plan" id="plan">
+                                <option value="none" selected disabled hidden>Select a plan</option>
+                                <option value="Personal training">Personal training</option>
+                                <option value="Personal training">Personal training</option>
+                                <option value="Personal training">Personal training</option>
+                            </select>
+                        </div>
+                    </form>
+                    <h2>Let's talk about<br> everything.</h2>
+                </div>
             </div>
-            <div class="form-sub">
-                <h2>Let's talk about everything.</h2>
-
-            </div>
-        </form>
+        </div>
     </div>
 </body>
 
