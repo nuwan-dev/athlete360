@@ -546,6 +546,30 @@ html {
     }
 }
 
+// testimonial container
+.ath360-testimonial-container {
+    .testimonial {
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        padding-top: 50px;
+        padding-bottom: 80px;
+
+        .slick-track {
+            padding-top: 50px;
+        }
+
+        .testi {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+            margin-right: 10px;
+        }
+    }
+}
+
 // plans container
 .ath360-plans-container {
     width: 100%;

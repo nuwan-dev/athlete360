@@ -26,7 +26,7 @@ plnBtns.forEach((el) => {
 // goWhats
 function goWhats(value) {
   const form = document.querySelector(".ath360-form-container");
-  form.classList.toggle('ath-form-active')
+  form.classList.toggle("ath-form-active");
 
   // const email = "info@nuone.tech";
   // window.open(
@@ -61,4 +61,14 @@ $(".owl-carousel").owlCarousel({
       loop: false,
     },
   },
+});
+
+$(document).ready(function () {
+  $(".testimonial").slick({
+    infinite: true,
+    dots: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    speed: 300,
+  });
 });

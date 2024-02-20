@@ -461,6 +461,25 @@ html {
   display: block;
 }
 
+.ath360-testimonial-container .testimonial {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.ath360-testimonial-container .testimonial .slick-track {
+  padding-top: 50px;
+}
+.ath360-testimonial-container .testimonial .testi {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+}
+
 .ath360-plans-container {
   width: 100%;
   background-color: #047DC6;
