@@ -16,6 +16,7 @@ window.addEventListener("scroll", () => {
     : whatsApp.classList.remove("whats-app-active");
 });
 
+// plan button
 const plnBtns = document.querySelectorAll(".plan-btn");
 plnBtns.forEach((el) => {
   el.addEventListener("mouseover", () => {
@@ -63,6 +64,8 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
+
+// slick
 $(document).ready(function () {
   $(".testimonial").slick({
     infinite: true,
