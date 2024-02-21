@@ -565,7 +565,17 @@ html {
             border: none;
             border-radius: 20px;
             box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
-            margin-right: 10px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 450px;
+
+            .testi-person-img {
+                margin: auto;
+                height: 128px;
+                width: 128px;
+            }
         }
     }
 }

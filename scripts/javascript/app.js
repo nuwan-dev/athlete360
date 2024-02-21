@@ -69,6 +69,9 @@ $(document).ready(function () {
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerMode: true,
+    centerPadding: "60px",
   });
 });
