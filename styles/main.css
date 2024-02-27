@@ -494,6 +494,9 @@ html {
   border-radius: 8px;
   margin-right: 5px;
   margin-left: 5px;
+  height: 375px;
+  display: block;
+  transition: 0.3s ease-in-out all;
 }
 .ath360-testimonial-container .testi-main .testimonial .testi .testi-img-grp {
   display: flex;
@@ -514,6 +517,9 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
+}
+.ath360-testimonial-container .testi-main .testimonial .testi:hover {
+  transform: scale(1.1);
 }
 
 .ath360-plans-container {

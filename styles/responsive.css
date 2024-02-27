@@ -257,11 +257,21 @@ html {
     align-items: flex-start;
     row-gap: 10px;
   }
+  .ath360-testimonial-container .testi-main .testimonial .testi {
+    height: 100% !important;
+    max-height: 100% !important;
+  }
 }
 @media screen and (max-width: 850px) {
   .ath360-pricing-container .pricing .plans {
     flex-direction: column !important;
     justify-content: center !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ath360-testimonial-container .testi-main .testimonial .testi {
+    height: 100% !important;
+    max-height: 100% !important;
   }
 }
 

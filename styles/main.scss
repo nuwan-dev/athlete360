@@ -584,6 +584,9 @@ html {
                 border-radius: 8px;
                 margin-right: 5px;
                 margin-left: 5px;
+                height: 375px;
+                display: block;
+                transition: 0.3s ease-in-out all;
 
                 .testi-img-grp {
                     display: flex;
@@ -608,6 +611,10 @@ html {
                     font-size: 18px;
                     font-weight: 500;
                 }
+            }
+
+            .testi:hover {
+                transform: scale(1.1)
             }
         }
     }

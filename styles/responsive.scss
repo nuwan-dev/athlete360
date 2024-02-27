@@ -399,8 +399,19 @@ html {
             }
         }
     }
-}
 
+    // testinmonial contaier 
+    .ath360-testimonial-container {
+        .testi-main {
+            .testimonial {
+                .testi {
+                    height: 100% !important;
+                    max-height: 100% !important;
+                }
+            }
+        }
+    }
+}
 
 // screen < 850
 @media screen and (max-width: 850px) {
@@ -409,6 +420,21 @@ html {
             .plans {
                 flex-direction: column !important;
                 justify-content: center !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    // testinmonial contaier 
+    .ath360-testimonial-container {
+        .testi-main {
+            .testimonial {
+                .testi {
+                    height: 100% !important;
+                    max-height: 100% !important;
+                }
             }
         }
     }
