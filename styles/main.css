@@ -461,32 +461,59 @@ html {
   display: block;
 }
 
-.ath360-testimonial-container .testimonial {
+.ath360-testimonial-container .testi-main {
+  max-width: 1440px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin: auto;
+}
+.ath360-testimonial-container .testi-main h2 {
+  color: #000;
+  margin-top: 8px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.ath360-testimonial-container .testi-main h2 span {
+  color: #047DC6;
+}
+.ath360-testimonial-container .testi-main .testimonial {
   max-width: 1440px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   column-gap: 10px;
-  padding-top: 50px;
-  padding-bottom: 80px;
 }
-.ath360-testimonial-container .testimonial .slick-track {
-  padding-top: 50px;
+.ath360-testimonial-container .testi-main .testimonial .testi {
+  padding: 24px;
+  border: 1px solid #C7ECFF;
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
-.ath360-testimonial-container .testimonial .testi {
-  border: none;
-  border-radius: 20px;
-  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
-  position: relative;
+.ath360-testimonial-container .testi-main .testimonial .testi .testi-img-grp {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 450px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
 }
-.ath360-testimonial-container .testimonial .testi .testi-person-img {
-  margin: auto;
-  height: 128px;
-  width: 128px;
+.ath360-testimonial-container .testi-main .testimonial .testi .testi-img-grp img:first-child {
+  width: 34px;
+}
+.ath360-testimonial-container .testi-main .testimonial .testi .testi-msg {
+  margin-bottom: 17px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.ath360-testimonial-container .testi-main .testimonial .testi .testi-prsn {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .ath360-plans-container {

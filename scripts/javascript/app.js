@@ -64,17 +64,16 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
-
 // slick
 $(document).ready(function () {
   $(".testimonial").slick({
     infinite: true,
-    dots: true,
+    dots: false,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
-    centerMode: true,
+    autoplaySpeed: 800,
+    //centerMode: true,
     centerPadding: "60px",
   });
 });
